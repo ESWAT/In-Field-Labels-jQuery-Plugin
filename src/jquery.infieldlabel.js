@@ -30,12 +30,7 @@
 			// Merge supplied options with default options
             base.options = $.extend({},$.InFieldLabels.defaultOptions, options);
             
-            base.$label.css('position','absolute');
-            var fieldPosition = base.$field.position();
-            base.$label.css({
-                'left' : fieldPosition.left,
-                'top' : fieldPosition.top
-            }).addClass(base.options.labelClass);
+            base.$label.addClass(base.options.labelClass);
 
 			// Check if the field is already filled in
 			if(base.$field.val() != ""){

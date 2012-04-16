@@ -130,6 +130,17 @@
 			var $field = $(
 				"input#" + for_attr + "[type='text']," + 
 				"input#" + for_attr + "[type='password']," + 
+				"input#" + for_attr + "[type='search']," + 
+				"input#" + for_attr + "[type='tel']," + 
+				"input#" + for_attr + "[type='url']," + 
+				"input#" + for_attr + "[type='email']," + 				
+				"input#" + for_attr + "[type='password']," + 
+				"input#" + for_attr + "[type='time']," + 
+				"input#" + for_attr + "[type='date']," + 
+				"input#" + for_attr + "[type='datetime']," + 
+				"input#" + for_attr + "[type='datetime-local']," + 
+				"input#" + for_attr + "[type='month']," + 
+				"input#" + for_attr + "[type='year']," + 
 				"textarea#" + for_attr
 				);
 				
